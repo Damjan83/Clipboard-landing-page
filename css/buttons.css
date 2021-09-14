@@ -1,0 +1,18 @@
+.btn {
+  border: none;
+  border-radius: 50px;
+  font-family: 'Bai Jamjuree' , sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 35px;
+  color: white;
+  margin: 15px 5px;
+  cursor: pointer; }
+
+.btn-primary {
+  background-color: var(--primary-bg-color);
+  box-shadow: 0 4px #198575; }
+
+.btn-secondary {
+  background-color: var(--primary-bg-color1);
+  box-shadow: 0 4px #5565e2; }

@@ -1,0 +1,33 @@
+footer{
+    background-color:  hsl(0, 0%, 93%);
+}
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    list-style-type: none;
+}
+footer ul a{
+    color: var(--neutral-color);
+    text-decoration: none;
+}
+footer img{
+    width: 60px;
+}
+footer .links{
+    flex: 3;
+}
+footer .links li{
+    margin-right: 40px;
+    padding: 10px;
+}
+footer .social li{
+    margin: 0 5px;
+}
+footer .social a{
+    margin-right: 5px;
+    font-size: 24px;
+}
+footer .container{
+    margin-bottom: 0;
+}

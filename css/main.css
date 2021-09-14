@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
+.btn {
+  border: none;
+  border-radius: 50px;
+  font-family: 'Bai Jamjuree' , sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 35px;
+  color: white;
+  margin: 15px 5px;
+  cursor: pointer; }
+
+.btn-primary {
+  background-color: var(--primary-bg-color);
+  box-shadow: 0 4px #198575; }
+
+.btn-secondary {
+  background-color: var(--primary-bg-color1);
+  box-shadow: 0 4px #5565e2; }
+
+header {
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0 0; }
+
+footer {
+  background-color: #ededed; }
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style-type: none; }
+
+footer ul a {
+  color: var(--neutral-color);
+  text-decoration: none; }
+
+footer img {
+  width: 60px; }
+
+footer .links {
+  flex: 3; }
+
+footer .links li {
+  margin-right: 40px;
+  padding: 10px; }
+
+footer .social li {
+  margin: 0 5px; }
+
+footer .social a {
+  margin-right: 5px;
+  font-size: 24px; }
+
+footer .container {
+  margin-bottom: 0; }
+
+.container {
+  padding: 0 20px;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 1200px;
+  margin-bottom: 0; }
+
+.container-small {
+  width: 700px; }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.flex > * {
+  flex: 1;
+  padding: 10px; }
+
+.m4 {
+  margin: 100px auto; }
+
+* {
+  box-sizing: border-box; }
+
+:root {
+  --primary-bg-color: hsl(171, 66%, 44%);
+  --primary-bg-color1: hsl(233, 100%, 69%);
+  --neutral-color: hsl(210, 10%, 33%);
+  --neutral-color1: hsl(201, 11%, 66%); }
+
+body {
+  font-family: 'Bai Jamjuree' , sans-serif;
+  text-align: center;
+  margin: 0;
+  color: var(--neutral-color); }
+
+p {
+  color: var(--neutral-color);
+  line-height: 1.5; }
+
+img {
+  max-width: 100%; }
+
+@media only screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column; }
+  footer .links {
+    flex-direction: column; }
+  footer .links li {
+    margin-right: 0;
+    padding: 10px; } }
